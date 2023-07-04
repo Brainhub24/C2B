@@ -1,31 +1,4 @@
 /**
- * Encrypt Login Details using AES Algorithm with CryptoJS Library - Cryptographic Functions for JavaScript
- * 
- * Library: CryptoJS (https://www.npmjs.com/package/crypto-js)
- * Documentation: https://cryptojs.gitbook.io/docs/#ciphers
- * 
- * Description:
- * CryptoJS is a widely-used JavaScript library that provides cryptographic functions for hashing, encryption, decryption, encoding, decoding, and more.
- * It offers a variety of algorithms, including MD5, SHA-1, SHA-256, AES, DES, Triple DES, Base64, and HMAC, enabling secure data storage, integrity checks, password hashing, and key derivation.
- * Utilize CryptoJS to implement robust security features in JavaScript applications.
- *
- * Developer: Brainhub24
- * Contact: github@brainhub24.com
- * About: Encrypts login details using the AES algorithm and writes the encrypted data to a file.
- * Version: 2.0.0
- * 
- * Changelog:
- * 
- * v2.0.0 (07-04-2023):
- * - Implemented error handling with try-catch blocks.
- * - Set appropriate file permissions for login.json to restrict access.
- * - Added a changelog to code comments.
- * 
- * v1.0.0 (07-03-2023):
- * - Initial version of the code.
- */
-
-/**
  * Encrypt and Decrypt Login Details using AES Algorithm with CryptoJS Library - Cryptographic Functions for JavaScript
  * 
  * Library: CryptoJS (https://www.npmjs.com/package/crypto-js)
@@ -39,9 +12,12 @@
  * Developer: Brainhub24
  * Contact: github@brainhub24.com
  * About: Encrypts and decrypts login details using the AES algorithm.
- * Version: 2.0.0
+ * Version: 2.1.1
  * 
  * Changelog:
+ *
+ * v2.1.1 (07-04-2023):
+ * Comments fix
  * 
  * v2.1.0 (07-04-2023):
  * - Added decryption functionality to retrieve original login details.
